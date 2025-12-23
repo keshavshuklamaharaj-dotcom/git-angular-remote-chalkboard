@@ -12,6 +12,7 @@
         "build": {
           "builder": "@angular/build:application",
           "options": {
+            "baseHref": "/git-angular-remote-chalkboard/",
             "outputPath": "dist/remote-chalkboard",
             "index": "src/index.html",
             "browser": "src/main.ts",
